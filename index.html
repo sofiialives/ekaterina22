@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kriptobitmart.ekatz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Fira+Sans:ital,wght@0,400;0,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="header-nav">
+                <a href="./index.html"><img src="./images/desktop/logo_result.png" alt="logo" width="120"></a>
+                <ul class="header-list list">
+                    <li><a href="#start" class="header-nav-link link">Введение</a></li>
+                    <li><a href="#course" class="header-nav-link link">Программа</a></li>
+                    <li><a href="#best" class="header-nav-link link">Преимущества</a></li>
+                    <li><a href="#reviews" class="header-nav-link link">Отзывы</a></li>
+                </ul>
+                <button type="button" class="nav-button" data-modal-open>Оставить контакты</button>
+                <button type="button" class="menu-toggle js-open-menu burger-open-button"
+                aria-expanded="false"
+                aria-controls="mobile-menu">
+                    <svg class="burger-svg" width="24" height="16">
+                        <use href="./images/symbol-defs.svg#hamburger"></use>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section>
+            <div class="hero-container container">
+                <div class="hero-div">
+                    <p class="hero-best-course">Лучший курс для начинающих</p>
+                    <h1 class="hero-h1">Kriptobitmart Ekatz</h1>
+                    <p class="hero-text">На сегодняшний момент трейдинг и скальпинг - это доход который намного выше,
+                        чем у многих других
+                        профессий, конечно, на практике далеко не все сделки получаются прибыльными сразу, но я вас
+                        гарантирую, что я вложу все свои усилия и все знания в каждого кто заинтересуется в моем курсе.
+                        Теоретически доходность может стремиться к бесконечности, но все зависит только от вас!</p>
+                    <button class="button-phone" type="button" data-modal-open>
+                        <svg class="svg-phone" width="44" height="44">
+                            <use href="./images/symbol-defs.svg#phone"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- First Section -->
+        <!-- <section id="start" class="first-section">
+            <div class="first-container container">
+                <div class="first-div-right">
+                    <p class="first-section-for-you">Именно <span class="for-you">для тебя</span> !</p>
+                    <h2 class="first-h2"><span class="first-h2-span">Кому</span> стоит начать заниматься криптовалютами?
+                    </h2>
+                    <p class="">Вы хотите получить возможность зарабатывать больше или расширить свои финансовые
+                        возможности? Тогда курс по криптовалютам
+                        - это именно то, что вам нужно! Наши эксперты помогут вам изучитьвсе аспекты криптовалютного
+                        инвестирования,от
+                        основ до сложных торговых стратегий.Вы получите уникальные знания и навыки,чтобы преуспеть на
+                        растущем криптовалютном рынке.
+                        Не упустите свойшанс стать экспертом в новом и захватывающем мире финансов!</p>
+                    <button type="button" class="first-button" data-modal-open>Оставить контакты</button>
+                </div>
+                <ul class="first-cards-list list">
+                    <li class="first-cards-li">
+                        <div class="first-cards-div-svg">
+                            <svg class="first-cards-svg" width="49" height="49">
+                                <use href="./images/symbol-defs.svg#wallet"></use>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="first-cards-text">Вас интересуют финансовые рынки и возможность управлять своими
+                                деньгами.</p>
+                        </div>
+                    </li>
+                    <li class="first-cards-li">
+                        <div class="first-cards-div-svg">
+                            <svg class="first-cards-svg" width="52" height="52">
+                                <use href="./images/symbol-defs.svg#suitcase"></use>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="first-cards-text">Вы достигли своего «потолка» на работе и устали от начальства.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="first-cards-li">
+                        <div class="first-cards-div-svg">
+                            <svg class="first-cards-svg" width="52" height="52">
+                                <use href="./images/symbol-defs.svg#globe"></use>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="first-cards-text">Вам нужен личный график и возможность работать в любой точке
+                                мира.</p>
+                        </div>
+                    </li>
+                    <li class="first-cards-li">
+                        <div class="first-cards-div-svg">
+                            <svg class="first-cards-svg" width="52" height="52">
+                                <use href="./images/symbol-defs.svg#pig"></use>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="first-cards-text">У вас есть капитал, который вы хотите приумножить - выгодно и
+                                безопасно.</p>
+                        </div>
+                    </li>
+                    <li class="first-cards-li">
+                        <div class="first-cards-div-svg">
+                            <svg class="first-cards-svg" width="52" height="52">
+                                <use href="./images/symbol-defs.svg#clipboard"></use>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="first-cards-text">Вы человек с амбициями который хочет начать развиваться в новой
+                                и безумно интересной
+                                сфере.</p>
+                        </div>
+                    </li>
+                    <li class="first-cards-li">
+                        <div class="first-cards-div-svg">
+                            <svg class="first-cards-svg" width="52" height="52">
+                                <use href="./images/symbol-defs.svg#dollar"></use>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="first-cards-text">Вы хотите дополнительный источник дохода.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section> -->
+
+        <!-- Second Section -->
+        <!-- <section id="course" class="second-section">
+            <div class="container">
+                <p class="second-information-course">Информация <span class="second-information-course-span">про
+                        курс</span></p>
+                <h2 class="second-h2"><span class="second-h2-span">Программа</span> моего курса (каждая часть- это 3
+                    урока. 1 урок идет 2 часа)</h2>
+                <ul class="second-list list-1 list">
+                    <li class="second-li">
+                        <a href="" class="second-div-link link">
+                            <div class="overlay-div">
+                                <img src="./images/part1.avif" alt="" width="360" height="300">
+                                <p class="overlay">Как читать график? Что такое трейдинг? Как понять стоит ли тебе
+                                    заниматься этим? Как
+                                    выбрать
+                                    подходящую биржу? </p>
+                            </div>
+                            <div class="second-div">
+                                <h3 class="second-h3">Часть 1</h3>
+                                <p>Теория по терминам.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="second-li">
+                        <a href="" class="second-div-link link">
+                            <div class="overlay-div">
+                                <img src="./images/part2.avif" alt="" width="360" height="300">
+                                <p class="overlay">Более конкретно вливаемся в тему, но главное не будет тяжелых
+                                    непонятных
+                                    вам
+                                    терминов, я умею лёгким языком объяснить всё, так как для меня мои ученики очень
+                                    важны.</p>
+                            </div>
+                            <div class="second-div">
+                                <h3 class="second-h3">Часть 2</h3>
+                                <p>Уровни.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="second-li">
+                        <a href="" class="second-div-link link">
+                            <div class="overlay-div">
+                                <img src="./images/part3.avif" alt="" width="360" height="300">
+                                <p class="overlay"> Тут мы с вами обговорим стили торговли, также я буду
+                                    показывать
+                                    на практике.</p>
+                            </div>
+                            <div class="second-div">
+                                <h3 class="second-h3">Часть 3</h3>
+                                <p>Стили торговли и предпосылки.</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="second-list">
+                    <li class="second-li">
+                        <a href="" class="second-div-link link">
+                            <div class="overlay-div">
+                                <img src="./images/part4.avif" alt="" width="360" height="300">
+                                <p class="overlay">Не пугайтесь слову риски уважаемые ученики, не бывает такой
+                                    работы
+                                    где нету рисков. Тот кто не рискует- потом ездит до конца жизни на старой ладе и
+                                    живёт в
+                                    коммуналке! А тот кто вовремя рискнул, потом не будет жалеть об этом.</p>
+                            </div>
+                            <div class="second-div">
+                                <h3 class="second-h3">Часть 4</h3>
+                                <p>Риски и monеу-менеджмент.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="second-li">
+                        <a href="" class="second-div-link link">
+                            <div class="overlay-div">
+                                <img src="./images/part5.avif" alt="picture5" width="360" height="300">
+                                <p class="overlay">Тут я подробно буду уже показывать полностью,
+                                    мы будем с вами
+                                    практиковаться, с каждым учеником я по отдельности буду торговать на бирже для
+                                    новичков.</p>
+                            </div>
+                            <div class="second-div">
+                                <h3 class="second-h3">Часть 5</h3>
+                                <p>Как совершать сделки?</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section> -->
+
+        <!-- Third Section -->
+        <!-- <section id="best">
+            <div class="third-container container">
+                <div class="benefits-container">
+                    <ul class="benefits-list list">
+                        <li class="benefits-list-li">
+                            <p class="benefits-quantity benefits-1">12</p>
+                            <p>Наград за лучшие курсы</p>
+                        <li class="benefits-list-li">
+                            <p class="benefits-quantity">24/7</p>
+                            <p>Обратная связь</p>
+                        </li>
+                        <li class="benefits-list-li">
+                            <p class="benefits-quantity">2</p>
+                            <p>Опытных преподавателей</p>
+                        </li>
+                        </li>
+                        <li class="benefits-list-li">
+                            <p class="benefits-quantity benefits-1">150</p>
+                            <p>Выпускников нашего курса</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dscr-benefits-container">
+                    <p class="dscr-text">Наши преимущества</p>
+                    <h2 class="dscr-h2">Почему люди идут <span class="dscr-h2-span">именно на наш курс</span>?</h2>
+                    <p>Люди выбирают наш курс по криптовалютам, потому что мы предлагаем уникальный опыт и экспертизу,
+                        которые не найдете нигде более. Мы уделяем особое внимание индивидуальным потребностям каждого
+                        студента,
+                        помогая им достичь своих целей на криптовалютном рынке. Наш курс основан на практических
+                        примерах и стратегиях,
+                        которые работают, позволяя студентам уверенно и эффективно инвестировать в криптовалюты.
+                        Присоединяйтесь к нашей
+                        команде экспертов и начните зарабатывать больше на криптовалютном рынке уже сегодня!
+                    </p>
+                    <button type="button" class="first-button" data-modal-open>Оставить контакты</button>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Foutrh Section -->
+        <!-- <section id="reviews" class="fourth-section">
+            <div  class="fourth-container container">
+                <p class="fourth-students">Наши <span class="fourth-students-span">ученики</span>
+                <p>
+                <h2 class="fourth-h2">Что наши <span class="fourth-h2-span">ученики</span> думают про <span
+                        class="fourth-h2-span">курс</span>?</h2>
+                <ul class="students-list list">
+                    <li class="students-list-li">
+                        <div>
+                            <img src="./images/nikita.jpg" alt="nikita" width="98" height="98" class="students-photos">
+                        </div>
+                        <div>
+                            <h3 class="fourth-h3">Риджи Никита</h3>
+                            <ul class="stars-list list">
+                                <li><img src="./images/star.png" alt="star"></li>
+                                <li><img src="./images/star.png" alt="star"></li>
+                                <li><img src="./images/star.png" alt="star"></li>
+                                <li><img src="./images/star.png" alt="star"></li>
+                                <li><img src="./images/star.png" alt="star"></li>
+                            </ul>
+                            <p class="fourth-text">Благодаря этому курсу я научился новым навыкам и развил свои таланты.
+                                Я стал более уверенным в себе и своих возможностях, благодарен создателям и уже
+                                рекомендовал курс друзьям. Настоятельно рекомендую его всем, кто ищет способ изменить
+                                свою жизнь.</p>
+                        </div>
+                    </li>
+                    <li class="students-list-li">
+                        <div>
+                            <img src="./images/vsevolod.jpg" alt="vsevolod" width="98" height="98"
+                                class="students-photos">
+                        </div>
+                        <div>
+                            <h3 class="fourth-h3">Бондарев Всеволод</h3>
+                            <ul class="stars-list list">
+                                <li><img src="./images/star.png" alt="star"></li>
+                                <li><img src="./images/star.png" alt="star"></li>
+                                <li><img src="./images/star.png" alt="star"></li>
+                                <li><img src="./images/star.png" alt="star"></li>
+                                <li><img src="./images/star.png" alt="star"></li>
+                            </ul>
+                            <p class="fourth-text">Я мечтал попробовать инвестирование, но не знал, с чего начать. Курс
+                                по инвестированию в криптовалюты, который я приобрел, оказался эффективным и понятным. Я
+                                получил необходимые знания и навыки, начал зарабатывать и получил ценные контакты и
+                                советы от других инвесторов. Благодарен создателям курса за помощь в осуществлении моих
+                                меч</p>
+                        </div>
+                    </li>
+                    <li class="students-list-li">
+                        <div>
+                            <img src="./images/evgenii.jpg" alt="evgenii" width="98" height="98"
+                                class="students-photos">
+                        </div>
+                        <div>
+                            <h3 class="fourth-h3">Антропов Евгений</h3>
+                            <ul class="stars-list list">
+                                <li><img src="./images/star.png" alt="star"></li>
+                                <li><img src="./images/star.png" alt="star"></li>
+                                <li><img src="./images/star.png" alt="star"></li>
+                                <li><img src="./images/star.png" alt="star"></li>
+                                <li><img src="./images/star.png" alt="star"></li>
+                            </ul>
+                            <p class="fourth-text">Курс по криптовалютам помог мне изменить жизнь. Благодаря ему я
+                                научился инвестировать в криптовалюты, узнал много нового о них и получил необходимые
+                                навыки для успешных инвестиций. Материалы курса были представлены в доступной форме, а
+                                создатели всегда были готовы помочь и ответить на мои вопросы. Рекомендую этот курс
+                                всем, кто хочет начать инвестировать в криптовалюты!</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section> -->
+    </main>
+
+    <!-- Footer -->
+    <!-- <footer>
+        <div class="main-wrapper">
+            <div class="footer-container container">
+                <section class="info-footer">
+                    <a href="./index.html"><img src="./images/logo.png" alt="logo" width="120"></a>
+                    <p class="footer-text">Прямо сейчас у вас есть 2 варианта:
+                        1. Упустить эту возможность и дальше сомневаться "смог бы ли я тогда?! Почему я не попробовал.."
+                        2. Пройти мой курс за достаточно короткий промежуток времени и узнать точно, как реализовать все
+                        ваши планы, разобраться нужно ли вам вникать в эту тему, попробовать себя в чем-то новом и
+                        возможно
+                        добиться успеха. </p>
+                </section>
+                <section class="contacts-footer">
+                    <ul class="footer-contacts-list list">
+                        <li>
+                            <a href="mailto:bitmart.coach@gmail.com" class="footer-link link" target="_blank">Gmail</a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/ekatzz77" class="footer-link link" target="_blank">Telegram</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </footer> -->
+    <!-- Modal Window -->
+    <!-- <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <div class="modal-container">
+            <button type="button" class="modal-button" data-modal-close>
+                <svg class="button-svg-modal" width="16" height="16">
+                    <use href="./images/symbol-defs.svg#close"></use>
+                </svg>
+            </button>
+            <p class="modal-title">Оставьте свои контакты для обратной связи</p>
+            <form class="modal-form">
+                <label class="modal-label"> <p class="modal-label-text">ФИО</p> 
+                    <span class="modal-input-span">
+                        <input class="modal-input" type="text" name="username" pattern="^[a-zA-Zа-яА-Я]+$"
+                    minlength="10" maxlength="100" required>
+                    <svg class="modal-form-svg" width="18" height="24">
+                    <use href="./images/symbol-defs.svg#person"></use>
+                </svg>
+                    </span>
+                </label>
+                
+                <label class="modal-label"><p class="modal-label-text">Номер телефона</p>
+                    <span class="modal-input-span">
+                        <input class="modal-input" type="tel" name="phone_number" required>
+                    <svg class="modal-form-svg" width="18" height="24">
+                        <use href="./images/symbol-defs.svg#1phone"></use>
+                    </svg>
+                    </span>
+                </label>
+
+                <label class="modal-label"><p class="modal-label-text">Почта</p>
+                    <span class="modal-input-span">
+                        <input class="modal-input" type="email" name="email">
+                        <svg class="modal-form-svg" width="18" height="24">
+                            <use href="./images/symbol-defs.svg#email"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-label"><p class="modal-label-text">Комментарий</p>
+                    <textarea class="modal-textarea" name="comment" placeholder="Написать комментарий..."></textarea>
+                </label>
+
+                <input class="modal-input-privacy visually-hidden" type="checkbox" name="checkbox" id="label-privacy"
+                    required>
+                <label class="modal-label-privacy" for="label-privacy">I accept the terms and conditions of the&nbsp;<a
+                        href="" class="modal-privacy-policy">Privacy Policy</a>
+                </label>
+                <button class="modal-send-button" type="submit">Send</button>
+            </form>
+            </div>
+        </div>
+    </div> -->
+    <!-- Burger menu -->
+    <div class="menu-container mobile-menu js-menu-container" id="mobile-menu">
+        <div class="mobile-menu-container">
+            <button class="menu-toggle js-close-menu burger-close-button">
+              <svg
+                width="16"
+                height="16"
+              >
+                <use href="./images/symbol-defs.svg#close"></use>
+              </svg>
+            </button>
+            <ul class="burger-list list">
+                <li><a href="#start" class="burger-nav-link link">Введение</a></li>
+                <li><a href="#course" class="burger-nav-link link">Программа</a></li>
+                <li><a href="#best" class="burger-nav-link link">Преимущества</a></li>
+                <li><a href="#reviews" class="burger-nav-link link">Отзывы</a></li>
+            </ul>
+            <button type="button" class="burger-button" data-modal-open>Оставить контакты</button>
+            <ul class="burger-contacts-list list">
+                <li>
+                    <a href="mailto:bitmart.coach@gmail.com" class="burger-link-1 link" target="_blank">Gmail</a>
+                </li>
+                <li>
+                    <a href="https://t.me/ekatzz77" class="burger-link link" target="_blank">Telegram</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
+</body>
+
+</html>
