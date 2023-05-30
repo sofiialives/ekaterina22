@@ -64,14 +64,13 @@ html {
   scroll-behavior: smooth;
 }
 .container {
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media only screen and (min-width: 428px) {
   .container {
     max-width: 426px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -81,7 +80,7 @@ html {
 }
 @media only screen and (min-width: 1200px) {
   .container {
-    max-width: 1440px;
+    max-width: 1158px;
   }
 }
 body {
@@ -1010,6 +1009,9 @@ body {
   height: 1px;
   background-color: #000;
 }
+.fourth-students-span {
+  color: var(--secondary-color);
+}
 .fourth-h2 {
   font-weight: 700;
   font-size: 48px;
@@ -1020,6 +1022,119 @@ body {
 .fourth-h2-span {
   color: var(--secondary-color);
 }
+.fourth-text {
+  font-size: 11px;
+  line-height: 155%;
+  text-align: center;
+  padding: 0 18px 12px;
+}
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .fourth-students::before {
+    width: 80px;
+  }
+  .fourth-h3 {
+    margin-top: 68px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+  }
+  .fourth-h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125.5%;
+    margin-bottom: 82px;
+  }
+  .fourth-text{
+    font-size: 14px;
+  }
+  .students-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .stars-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px 0;
+  }
+  .students-list-li {
+    position: relative;
+    width: calc((100%-60) / 1);
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .students-photos {
+    position: absolute;
+    top: -49px;
+    left: 148px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+}
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  .students-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fourth-h3 {
+    margin-top: 68px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+  }
+  .stars-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px 0;
+  }
+  .students-list-li {
+    position: relative;
+    width: calc((100%-60) / 2);
+    height: 320px;
+    margin-bottom: 72px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .students-photos {
+    position: absolute;
+    top: -49px;
+    left: 116px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+}
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+  .students-photos {
+    position: absolute;
+    top: -49px;
+    left: 131px;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+  .students-list-li{
+    margin-right: 30px;
+  }
+  .students-list{
+    flex-direction: row;
+  }
+}
+/*
 .students-list {
   display: flex;
   justify-content: center;
@@ -1042,26 +1157,13 @@ body {
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.fourth-h3 {
-  margin-top: 68px;
-  font-weight: 700;
-  text-align: center;
-  color: black;
-}
-.fourth-text {
-  font-size: 11px;
-  line-height: 155%;
-  text-align: center;
-  padding: 0 18px 12px;
-}
 .students-photos {
   position: absolute;
   top: -49px;
   left: 131px;
   border-radius: 50%;
   border: 1px solid #000;
-}
-*/
+} */
 /* Footer */
 .footer-link {
   transition: color 300ms ease-in;
