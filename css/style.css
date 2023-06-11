@@ -1437,4 +1437,6 @@ body {
   transition: opacity 250ms ease-in,
     visibility 250ms ease-in;
 }
-
+.js-is-hidden{
+  display: none;
+}
