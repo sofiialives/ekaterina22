@@ -1440,3 +1440,7 @@ body {
 .js-is-hidden{
   display: none;
 }
+.burger-nav-link:hover,
+.burger-nav-link:focus{
+ color: var(--secondary-color); 
+}
